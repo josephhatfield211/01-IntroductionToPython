@@ -54,7 +54,7 @@ blue_turtle.speed = 20  # Fast
 size = 300
 
 # Do the indented code 13 times.  Each time draws a square.
-for k in range(13):
+for k in range(40):
 
     # Put the pen down, then draw a square of the given size:
     blue_turtle.draw_square(size)
