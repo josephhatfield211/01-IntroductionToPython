@@ -2,10 +2,10 @@
 Your chance to explore Loops and Turtles!
 
 Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
+         their colleagues and Joey Hatfield.
 """
 ###############################################################################
-# TODO: 1.
+# done: 1.
 #   On Line 5 above, replace  PUT_YOUR_NAME_HERE  with your own name.
 ###############################################################################
 
@@ -27,3 +27,105 @@ Authors: David Mutchler, Dave Fisher, Vibha Alangar, Amanda Stouder,
 #
 #   Don't forget to COMMIT-and-PUSH when you are done with this module.
 ###############################################################################
+import rosegraphics as rg
+bonzibuddy = rg.SimpleTurtle('turtle')
+otherturtle = rg.SimpleTurtle('turtle')
+
+window = rg.TurtleWindow()
+window.delay(20)
+
+bonzibuddy.pen_up()
+bonzibuddy.go_to(rg.Point(-300,-300))
+bonzibuddy.pen_down()
+bonzibuddy.speed = 10
+bonzibuddy.draw_square(600)
+bonzibuddy.forward(60)
+bonzibuddy.left(90)
+bonzibuddy.forward(600)
+bonzibuddy.right(90)
+bonzibuddy.forward(60)
+bonzibuddy.right(90)
+bonzibuddy.forward(600)
+bonzibuddy.left(90)
+bonzibuddy.forward(60)
+bonzibuddy.left(90)
+bonzibuddy.forward(600)
+bonzibuddy.right(90)
+bonzibuddy.forward(60)
+bonzibuddy.right(90)
+bonzibuddy.forward(600)
+bonzibuddy.left(90)
+bonzibuddy.forward(60)
+bonzibuddy.left(90)
+bonzibuddy.forward(600)
+bonzibuddy.right(90)
+bonzibuddy.forward(60)
+bonzibuddy.right(90)
+bonzibuddy.forward(600)
+bonzibuddy.left(90)
+bonzibuddy.forward(60)
+bonzibuddy.left(90)
+bonzibuddy.forward(600)
+bonzibuddy.right(90)
+bonzibuddy.forward(60)
+bonzibuddy.right(90)
+bonzibuddy.forward(600)
+bonzibuddy.left(90)
+bonzibuddy.forward(60)
+bonzibuddy.left(90)
+bonzibuddy.forward(600)
+bonzibuddy.right(90)
+bonzibuddy.forward(60)
+bonzibuddy.right(90)
+bonzibuddy.forward(600)
+bonzibuddy.left(90)
+
+otherturtle.pen_up()
+otherturtle.go_to(rg.Point(-300,-300))
+otherturtle.speed = 10
+otherturtle.pen_down()
+
+otherturtle.left(90)
+otherturtle.forward(60)
+otherturtle.right(90)
+otherturtle.forward(600)
+otherturtle.left(90)
+otherturtle.forward(60)
+otherturtle.left(90)
+otherturtle.forward(600)
+otherturtle.right(90)
+otherturtle.forward(60)
+otherturtle.right(90)
+otherturtle.forward(600)
+otherturtle.left(90)
+otherturtle.forward(60)
+otherturtle.left(90)
+otherturtle.forward(600)
+otherturtle.right(90)
+otherturtle.forward(60)
+otherturtle.right(90)
+otherturtle.forward(600)
+otherturtle.left(90)
+otherturtle.forward(60)
+otherturtle.left(90)
+otherturtle.forward(600)
+otherturtle.right(90)
+otherturtle.forward(60)
+otherturtle.right(90)
+otherturtle.forward(600)
+otherturtle.left(90)
+otherturtle.forward(60)
+otherturtle.left(90)
+otherturtle.forward(600)
+otherturtle.right(90)
+otherturtle.forward(60)
+otherturtle.right(90)
+otherturtle.forward(600)
+otherturtle.left(90)
+otherturtle.forward(60)
+otherturtle.left(90)
+otherturtle.forward(600)
+otherturtle.right(90)
+
+window.close_on_mouse_click()
+
