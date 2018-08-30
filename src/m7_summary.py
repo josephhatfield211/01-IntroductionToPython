@@ -55,5 +55,6 @@ turtle.pen = rg.Pen('Green', 10)
 
 turtle.right(180)
 turtle.forward(150)
+
 window.close_on_mouse_click()
 
